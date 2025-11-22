@@ -1,6 +1,5 @@
 class Solution:
 	def countPalindromicSubsequence(self, s: str) -> int:
-		n = len(s)
 		polyndroms = set()
 		left = set()
 		right = {}
